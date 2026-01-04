@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Neue', cursive, sans-serif;
+  background-color: #505050;
+}
+
+#app {
+  margin: 0;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 1rem;
+}
+
+.note-base {
+  box-sizing: border-box;
+  height: 200px;
+  margin: 0;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+}
+
+.note {
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #202020;
+  color: lightgray;
+}
+
+.add-note {
+  font-size: 100px;
+  cursor: pointer;
+  background-color: gray;
+  color: #505050;
+  transition: background-color 1s;
+}
+
+.add-note:hover {
+  background-color: darkgray;
+}
