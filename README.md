@@ -15,8 +15,10 @@ A simple Sticky Notes web application built with HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Project Structure
+```
 Sticky Notes/
 ├── index.html      # Main HTML file
 ├── style.css       # Styles
-├── app.js       # JavaScript logic
+├── app.js          # JavaScript logic
 └── README.md       # Project documentation
+```
