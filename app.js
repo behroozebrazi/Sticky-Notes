@@ -25,6 +25,7 @@ function addNote() {
   const noteItem = { id: Math.floor(Math.random() * 1000000), content: '' }
   const newNoteElement = createNoteElement(noteItem.id, noteItem.content)
   noteContainer.insertBefore(newNoteElement, addNoteBtn)
+  newNoteElement.focus()
   const notes = getNotes()
   notes.push(noteItem)
   saveNotes(notes)
