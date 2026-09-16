@@ -9,6 +9,11 @@ A simple Sticky Notes web application built with HTML, CSS, and JavaScript.
 - Auto-save using Local Storage
 - Responsive design
 
+## Screenshot
+<div align="center">
+  <img src="screenshot.png" alt="Sticky Notes App Screenshot" width="500">
+</div>
+
 ## Technologies
 - HTML
 - CSS
